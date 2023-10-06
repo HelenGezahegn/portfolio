@@ -26,7 +26,7 @@ export default function About() {
       <p className="mb-3">
         {`My work isn't just about lines of code; it's about creating solutions that
         have a real-world impact. I thrive on solving complex problems and
-        turning ideas into practical applications that can change lives. Regardless
+        turning ideas into practical applications that can change lives. Regardless if
         it's streamlining processes, enhancing user experiences, or addressing
         societal challenges, I'm always eager to roll up my sleeves and make a
         difference.`}
