@@ -14,7 +14,7 @@ export default function Experience() {
   const { ref } = useSectionInView("Experience");
 
   return (
-    <div id="experience" ref={ref}>
+    <div id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeader>Experience</SectionHeader>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
@@ -47,7 +47,6 @@ export default function Experience() {
     </div>
   );
 }
-
 
 /* Had to downgrade Next.js to 13.4.8 due to VerticalTimelineElement's being hidden 
 // & animation difficulties. 
