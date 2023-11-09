@@ -28,6 +28,10 @@ export const links = [
     hash: "#experience"
   },
   {
+    name: "Travel",
+    hash: "#travel"
+  },
+  {
     name: "Contact",
     hash: "#contact"
   }
@@ -94,7 +98,8 @@ export const projectsData = [
       "ChatEngine",
       "SASS"
     ],
-    imageUrl: chitChatAIImg
+    imageUrl: chitChatAIImg,
+    githubUrl: "https://github.com/HelenGezahegn/chit-chat-ai"
   },
   {
     title: "TravelBuddy",
@@ -108,13 +113,15 @@ export const projectsData = [
       "MaterialUI",
       "ReactRouter"
     ],
-    imageUrl: travelBuddyImg
+    imageUrl: travelBuddyImg,
+    githubUrl: "https://github.com/HelenGezahegn/travel-buddy"
   },
   {
     title: "Netflix Clone",
     description: "A responsive Netflix clone.",
     tags: ["React", "Next.js", "TailwindCSS", "Prisma", "MongoDB", "NextAuth"],
-    imageUrl: netflixCloneImg
+    imageUrl: netflixCloneImg,
+    githubUrl: "https://github.com/HelenGezahegn"
   }
 ] as const;
 
