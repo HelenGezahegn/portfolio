@@ -38,7 +38,7 @@ export default function Travel() {
           width="100%"
           height="450"
           loading="lazy"
-          frameborder="0"
+          frameBorder="0"
           style={{ border: "0", marginTop: "-150px" }}
         ></iframe>
       </div>
