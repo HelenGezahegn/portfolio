@@ -47,7 +47,7 @@ export const experiencesData = [
   },
   {
     title: "Maching Learning Fellow, AI4Good",
-    location: "Montréal, Quebec",
+    location: "Montréal, QC",
     description: `- Learned & applied fundamental concepts in machine learning & prototype development from Doina Precup & other experts. 
     - Started a dataset of Braille characters with a current size of almost 27K.
     - Used Python, pandas, numpy, & pytorch to train a model that recognizes Braille characters with 97% accuracy.
