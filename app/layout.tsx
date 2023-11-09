@@ -10,7 +10,7 @@ import ThemeContextProvider from "@/context/theme-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Helen Gezahegn | Personal Portfolio",
+  title: "Helen Gezahegn | Portfolio",
   description:
     "Helen is a full-stack developer with 2 years of industry experience."
 };
