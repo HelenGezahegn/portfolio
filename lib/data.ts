@@ -75,9 +75,9 @@ export const experiencesData = [
     date: "May 2019 - Dec 2020"
   },
   {
-    title: "Full-Time Nomad",
+    title: "Nomad",
     location: "30 Countries",
-    description: `Spent the last two years solo-travelling around the world, hence the gap in my employment. Feel free to ask about my adventures!`,
+    description: `Spent the last two years solo-travelling around the world, hence the gap in my employment. Didn't plan to travel for so long, but couldn't stop once I started. Feel free to ask about my adventures!`,
     icon: React.createElement(FaReact),
     date: "May 2021 - Aug 2023"
   }
