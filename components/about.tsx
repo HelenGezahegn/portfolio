@@ -19,21 +19,20 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        {`With a love for learning and a passion for
-        crafting fast and elegant applications, I thrive on creating solutions that have a real-world impact.`}
+        {`With a love for learning and a passion for crafting fast, scalable, and elegant applications, 
+        I thrive on creating solutions that have a real-world impact.`}
       </p>
       <p className="mb-3">
         {`I firmly believe in the power of technology to drive positive change, 
-        whether it's streamlining processes, enhancing user experiences, 
-        building software to help nonprofits reach their goals, creating platforms 
-        to connect people in meaningful ways, or using data to address pressing global issues. 
-        I'm always eager to roll up my sleeves and make a difference. `}
+        whether it involves streamlining processes, enhancing user experiences, 
+        creating platforms to connect people in meaningful ways, or using data to
+         address pressing global issues. I'm always eager to roll up my sleeves 
+         and make a difference.`}
       </p>
 
       <p className="mb-3">
-        {` When I'm not immersed in the world of
-        code, you'll find me travelling (on country 30), trying to
-        learn a new language (currently working on my French), or chillin' with the fam.`}
+        {` When I'm not in front of a computer screen, you'll find me travelling (on country 31), trying to
+        learn a new language (dieu aide mon francais), or chillin' with the fam.`}
       </p>
     </motion.section>
   );
