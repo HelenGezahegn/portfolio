@@ -46,7 +46,7 @@ export const experiencesData = [
     date: "Expected Grad: Dec 2024"
   },
   {
-    title: "Maching Learning Fellow, AI4Good",
+    title: "Machine Learning Fellow, AI4Good",
     location: "Montréal, QC",
     description: `- Learned & applied fundamental concepts in machine learning & prototype development from Doina Precup & other experts. 
     - Started a dataset of Braille characters with a current size of almost 27K.
