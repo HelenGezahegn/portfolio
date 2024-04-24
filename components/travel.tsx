@@ -29,6 +29,8 @@ export default function Travel() {
       <p className="display-linebreak mb-5">
         {`Traveled independently to 30 countries over a span of two years, demonstrating adaptability, cultural awareness, and self-reliance. This enriching experience has honed my ability to navigate diverse environments, fostering a deep appreciation for global perspectives, and enhancing my problem-solving skills.
         
+        This journey has taught me to trust in the flow of life, to relinquish control, and to find freedom in spontaneity. It's about going for the things we want in life unapologetically, seizing opportunities without hesitation, and pushing past comfort zones for personal growth. Embracing this mindset has led me to live more authentically and pursue my passions fearlessly, ultimately leading to greater self-awareness and confidence.
+        
         Here's where I've been so far 🥳`}
       </p>
       <div style={{ width: "100%", overflow: "hidden", height: "300px" }}>

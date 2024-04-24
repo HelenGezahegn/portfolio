@@ -43,7 +43,7 @@ export const experiencesData = [
     location: "Edmonton, AB",
     description: "BSc. Computer Science",
     icon: React.createElement(LuGraduationCap),
-    date: "Expected Grad: Dec 2024"
+    date: "Expected Grad: April 2025"
   },
   {
     title: "Machine Learning Fellow, AI4Good",
@@ -75,15 +75,40 @@ export const experiencesData = [
     date: "May 2019 - Dec 2020"
   },
   {
-    title: "Nomad",
-    location: "30 Countries",
-    description: `Spent the last two years solo-travelling around the world, hence the gap in my employment. Didn't plan to travel for so long, but couldn't stop once I started. Feel free to ask about my adventures!`,
+    title: "Director of Technology, RISEBRIDGE",
+    location: "Nanaimo, BC | Vancouver, BC",
+    description: `- Led the development and implementation of technology strategies that supported the organization's mission and goals, including initiatives focused on BIPoC advocacy, outreach, and education.
+    - Spearheaded, oversaw and was the point of contact regarding tech tools used in the non-profit. These tools included Google Workspace (Calendar, Sheets, Docs, Slides, Forms, Shared Drives, Groups, and the like), Microsoft Teams, Canva, Wix (for the website), and social media (Instagram, Facebook). 
+    - Collaborated with cross-functional teams to enhance data collection and analysis efforts, improving the organization's ability to track and measure the impact of its advocacy work.
+    - Provided support and aided in gathering resources for street-entrenched individuals, those battling addiction, fleeing domestic violence, and confronting critical challenges.`,
     icon: React.createElement(FaReact),
-    date: "May 2021 - Aug 2023"
+    date: "July 2021 - Feb 2022"
+  },
+  {
+    title: "Travel Break",
+    location: "30 Countries",
+    description: `- Traveled independently to 30 countries over a span of two years, demonstrating adaptability, cultural awareness, and self-reliance. Feel free to ask about my adventures!`,
+    icon: React.createElement(FaReact),
+    date: "Feb 2022 - Present"
   }
 ] as const;
 
 export const projectsData = [
+  {
+    title: "TravelBuddy",
+    description: `A MERN social media app for wanderlust-driven globetrotters. You can post, have a feed, add/remove friends, and see profiles.`,
+    tags: [
+      "React",
+      "Redux",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "MaterialUI",
+      "ReactRouter"
+    ],
+    imageUrl: travelBuddyImg,
+    githubUrl: "https://github.com/HelenGezahegn/travel-buddy"
+  },
   {
     title: "ChitChat",
     description:
@@ -102,26 +127,12 @@ export const projectsData = [
     githubUrl: "https://github.com/HelenGezahegn/chit-chat-ai"
   },
   {
-    title: "TravelBuddy",
-    description: `A MERN social media app for wanderlust-driven globetrotters. You can post, have a feed, add/remove friends, and see profiles.`,
-    tags: [
-      "React",
-      "Redux",
-      "MongoDB",
-      "Node.js",
-      "Express.js",
-      "MaterialUI",
-      "ReactRouter"
-    ],
-    imageUrl: travelBuddyImg,
-    githubUrl: "https://github.com/HelenGezahegn/travel-buddy"
-  },
-  {
     title: "Netflix Clone",
-    description: "A responsive Netflix clone.",
+    description: "[In Progress] A responsive Netflix clone.",
     tags: ["React", "Next.js", "TailwindCSS", "Prisma", "MongoDB", "NextAuth"],
     imageUrl: netflixCloneImg,
-    githubUrl: "https://github.com/HelenGezahegn"
+    githubUrl:
+      "https://github.com/HelenGezahegn/netflix-clone/tree/main/netflix-clone"
   }
 ] as const;
 
